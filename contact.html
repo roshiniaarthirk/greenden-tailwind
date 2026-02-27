@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+</head>
+<body>
+        <!-- Navbar -->
+    <div class="p-3 bg-green-100 flex justify-between text-center items-center shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-2 w-5 h-5 align-center cursor-pointer md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="flex gap-10 text-gray-600 hidden md:flex">
+            <li>
+                <a href="index.html" class="hover:underline hover:text-black">Home</a>
+            </li>
+            <li>
+                <a href="products.html" class="hover:underline hover:text-black">Products</a>
+            </li>
+            <li>
+                <a href="contact.html" class="hover:underline hover:text-black">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!--Contact Form-->
+   <div class="bg-gray-100">
+    <div class="container mx-auto py-12">
+        <div class="max-w-lg mx-auto px-4">
+            <h2 class="text-3xl font-semibold text-gray-900 mb-4">
+                How can we help you
+            </h2>
+            <p class="text-gray-700 mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis velit
+                eget nisi lobortis dignissim.
+            </p>
+            <form class="bg-white rounded-lg px-6 py-8 shadow-md">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="name">Name</label>
+                    <input
+                        class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="name" type="text" placeholder="Enter your name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
+                    <input
+                        class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
+                    <textarea
+                        class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="message" rows="6" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="flex justify-end">
+                    <button
+                        class="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="button">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+     <!--Footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5"> 
+        <h1 class="font-bold text-4xl mb-2">Greenden</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicon Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam!</p>
+        <p>@2021 Greenday.com</p>
+    </section>
+    
+</body>
+</html>
